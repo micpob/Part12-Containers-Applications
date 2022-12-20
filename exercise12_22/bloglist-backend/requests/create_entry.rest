@@ -1,0 +1,10 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ikxpc2EyIiwiaWQiOiI1ZDRjYWY0MmMyZjQ0NTBjMjRhZDJjZjYiLCJpYXQiOjE1NjUzMDY3MDV9.IluoEjGb9K8oW8dx_zP5Bubfmiogfwcl4yoICe-O4BU
+
+{
+  "title": "davidwalsh.name",
+  "author": "David Walsh",
+  "url": "https://davidwalsh.name/",
+  "likes": 11
+}
